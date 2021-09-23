@@ -1,5 +1,5 @@
-# name = input("What is your name: ")
-# print(name)
+name = input("What is your name: ").capitalize()
+print(name)
 
 # input always gives a string, so need to convert strings to numbers
 size_input = input("How big is your house (in square feet): ")
