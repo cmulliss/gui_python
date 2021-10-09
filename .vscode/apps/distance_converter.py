@@ -46,6 +46,9 @@ feet_display.grid(column=1, row=1, sticky="EW", padx=5, pady=5)
 
 calc_button.grid(column=0, row=2, columnspan=2, sticky="EW", padx=5, pady=5)
 
+# shortcuts or keybindings, to enable keyboard for all input, binding to yh rooot, but could bind to just the input, binding Return key, assign calculate_feet, same command as button. Also binding the keypad enter key.
+root.bind("<Return>", calculate_feet)
+root.bind("<KP_Enter>", calculate_feet)
 
 root.mainloop()
 
